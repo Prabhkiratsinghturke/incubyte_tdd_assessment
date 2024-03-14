@@ -8,14 +8,13 @@
 
 ## Steps to setup:
 
-* Clone the project - git clone https://github.com/Prabhkiratsinghturke/string_calculator_TDD_kata_assignment.git
+* Clone the project - git clone https://github.com/Prabhkiratsinghturke/incubyte_tdd_assessment.git
 
-* Navigate to the project directory - cd string_calculator_TDD_kata_assignment
+* Navigate to the project directory - cd incubyte_tdd_assessment
 
 * Install bundler - gem install bundler
 
 * Then run "bundle install" 
-
 
 
 ## Steps to Test the desired results:

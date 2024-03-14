@@ -8,21 +8,38 @@
 
 ## Steps to setup:
 
-* Clone the project - git clone https://github.com/Prabhkiratsinghturke/incubyte_tdd_assessment.git
+* Clone the project - 
 
-* Navigate to the project directory - cd incubyte_tdd_assessment
+```
+git clone https://github.com/Prabhkiratsinghturke/incubyte_tdd_assessment.git
+```
 
-* Install bundler - gem install bundler
+* Navigate to the project directory -
+```
+cd incubyte_tdd_assessment
+```
 
-* Then run "bundle install" 
+* Install bundler -
 
+```
+gem install bundler
+```
+
+* Then run -
+
+```
+bundle install 
+```
 
 ## Steps to Test the desired results:
 
 
 * Open terminal in your project directory
-* Run RSpec - "rspec"
+* Run RSpec -
 
+```
+rspec
+```
 
 ## Valid input strings include:
 

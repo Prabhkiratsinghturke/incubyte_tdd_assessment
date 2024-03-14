@@ -28,7 +28,7 @@ class StringCalculator
   def raise_if_negatives
     negative_digits = @digits.select(&:negative?)
 
-    raise NegativeNumberError, "Negative digits are not allowed: #{negative_digits.join(', ')}" if negative_digits.any?
+    raise NegativeNumberError, "Negative numbers are not allowed: #{negative_digits.join(', ')}" if negative_digits.any?
   end
 
   def set_digits

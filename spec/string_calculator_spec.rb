@@ -42,7 +42,7 @@ RSpec.describe StringCalculator do
         calculator = StringCalculator.new('1,2,3,-4')
         expect do
           calculator.add
-        end.to raise_error(StringCalculator::NegativeNumberError, 'Negative digits are not allowed: -4')
+        end.to raise_error(StringCalculator::NegativeNumberError, 'Negative numbers are not allowed: -4')
       end
     end
 
